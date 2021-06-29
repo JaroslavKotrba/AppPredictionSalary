@@ -33,7 +33,7 @@ def main():
 
     # Image
     from PIL import Image
-    image = Image.open('C:/Users/HP/OneDrive/Documents/HTML & CSS/data.analyst.com/images/Salary.jpg')
+    image = Image.open('./Salary.jpg')
     st.image(image, caption='Salary Prediction with AI', use_column_width=True)
 
     # Info
