@@ -49,9 +49,11 @@ def main():
     education = ('Bachelor’s degree', 'Master’s degree', 'Less than a Bachelors',
        'Post grad')
 
-    country = st.selectbox("Country", countries)
+    default_country = countries.index('Czech Republic')
+    country = st.selectbox("Country", countries, index=default_country)
 
-    education = st.selectbox("Education", education)
+    default_education = education.index('Master’s degree')
+    education = st.selectbox("Education", education, index=default_education)
 
     experience = st.slider("Years of Experience", 0, 50, 3)
 
