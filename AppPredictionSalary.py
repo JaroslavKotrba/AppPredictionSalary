@@ -55,7 +55,7 @@ def main():
     default_education = education.index('Master’s degree')
     education = st.selectbox("Education", education, index=default_education)
 
-    experience = st.slider("Years of Experience", 0, 50, 3)
+    experience = st.slider("Years of Experience", 0, 50, 2)
 
     pretty_result = {"Country": country, "Education": education, "Experience": experience}
     st.json(pretty_result)
