@@ -70,9 +70,9 @@ def main():
         X_sample = X_sample.astype(float)
 
         salary = model_loaded.predict(X_sample)
-        st.subheader(f"The estimated salary is USD {salary[0]:.2f} per year.")
-        st.subheader(f"The estimated salary is EUR {salary[0]*0.85:.2f} per year.")
-        st.subheader(f"The estimated salary is CZK {salary[0]*21.5/12:.2f} per month.")
+        st.subheader(f"The estimated salary: USD {salary[0]:.2f} per year.")
+        st.subheader(f"The estimated salary: EUR {salary[0]*0.85:.2f} per year.")
+        st.subheader(f"The estimated salary: CZK {salary[0]*21.5/12:.2f} per month.")
 
     st.subheader("Sources:")
     st.write("Source of the data for the model: https://insights.stackoverflow.com/survey")
