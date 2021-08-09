@@ -76,7 +76,7 @@ def main():
 
     st.subheader("Sources:")
     st.write("Source of the data for the model: https://insights.stackoverflow.com/survey")
-    st.write("To see other author’s projects: https://jaroslavkotrba.com/")
+    st.write("To see other author’s projects: https://jaroslavkotrba.com")
 
 if __name__ == '__main__':
     main()
