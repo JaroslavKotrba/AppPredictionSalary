@@ -29,7 +29,7 @@ le_education = data["le_education"]
 
 def main():
 
-    st.title("IT Developer Salary Prediction 2020")
+    st.title("IT Developer Salary Prediction - 2020")
 
     # Image
     from PIL import Image
