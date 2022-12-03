@@ -6,7 +6,7 @@
 # activate enviro
 # conda list
 
-# cd C:\Users\HP\OneDrive\Documents\Python Anaconda\Streamlit_Salary_App
+# cd "/Users/HP/OneDrive/Documents/Python Anaconda/Streamlit_Salary_App"
 # streamlit run AppPredictionSalary.py
 # conda env remove -n test
 # ctr+shift+p
@@ -15,6 +15,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
