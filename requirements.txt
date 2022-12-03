@@ -4,6 +4,6 @@ joblib~=1.0.1
 numpy~=1.20.0
 pandas~=1.2.1
 pillow~=8.1.0
-sklearn~=0.0
+scikit-learn~=0.0
 click==7.1.2
 protobuf~=3.19.0
